@@ -6,3 +6,10 @@ npx shadcn@latest init
 npx shadcn@latest add button
 npm i react-router-dom
 npm i @tanstack/react-query
+npx shadcn@latest add card badge
+npm install lucide-react
+npm install dayjs
+npx shadcn@latest add form
+npm i @hookform/resolvers
+npx shadcn@latest add input
+npx shadcn@latest add textarea
