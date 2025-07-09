@@ -1,0 +1,35 @@
+npm init -y
+npm i typescript @types/node -D
+npx tsc --init  
+Ir em tsconfig base e copiar o código da versão do node:
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "22.0.0",
+
+  "compilerOptions": {
+    "lib": ["es2024", "ESNext.Array", "ESNext.Collection", "ESNext.Iterator"],
+    "module": "nodenext",
+    "target": "es2022",
+    "noEmit": true,
+    "allowArbitraryExtensions": true,
+
+
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node16"
+  }
+}
+
+npm i fastify @fastify/cors fastify-type-provider-zod zod
+npm install -D ts-node-dev
+npx ultracite init
+docker compose up -d
+npm i postgres 
+npm i drizzle-orm
+npm i drizzle-kit -D
+npx drizzle-kit generate
+npx drizzle-kit migrate
+npm i drizzle-seed -D 
+npx drizzle-kit studio  
+npm run db:seed
