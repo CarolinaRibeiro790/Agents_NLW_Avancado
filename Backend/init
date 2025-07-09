@@ -33,3 +33,5 @@ npx drizzle-kit migrate
 npm i drizzle-seed -D 
 npx drizzle-kit studio  
 npm run db:seed
+npm run db:generate
+npm run db:migrate 
