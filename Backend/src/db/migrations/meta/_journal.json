@@ -15,6 +15,13 @@
       "when": 1752093906359,
       "tag": "0001_panoramic_silver_fox",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752323760231,
+      "tag": "0002_heavy_reaper",
+      "breakpoints": true
     }
   ]
 }

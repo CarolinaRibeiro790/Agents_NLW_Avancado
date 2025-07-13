@@ -13,3 +13,4 @@ npx shadcn@latest add form
 npm i @hookform/resolvers
 npx shadcn@latest add input
 npx shadcn@latest add textarea
+npm i @types/dom-speech-recognition -D
